@@ -7,9 +7,9 @@
 
 ¡Saludos! Aquí tienes mi respuesta al inicial desafío presentado en ONE (Oracle Next Education). La herramienta en cuestión posibilita la codificación y descodificación de mensajes mediante normativas particulares.
 
-## Reglas predefinidas
+## Llaves de encriptación
 
-El Encriptador y Desencriptador utiliza las siguientes reglas predefinidas para encriptar y desencriptar mensajes:
+El Encriptador y Desencriptador utiliza las siguientes llaves para encriptar y desencriptar mensajes:
 
 - La letra "e" es convertida a "enter"
 - La letra "i" es convertida a "imes"
@@ -17,11 +17,18 @@ El Encriptador y Desencriptador utiliza las siguientes reglas predefinidas para 
 - La letra "o" es convertida a "ober"
 - La letra "u" es convertida a "ufat"
 
+## Requisitos
+
+- Debe funcionar solo con letras minúsculas
+- No se permiten letras con acentos ni caracteres especiales
+
 ## Características
+
 - Encripta mensajes según reglas predefinidas
 - Desencripta mensajes utilizando las mismas reglas
 - Emite alertas con SweetAlert
 - Adaptable a dispositivos móviles
+- Botón para copiar resultado y borrar texto ingresado
 
 ## Tecnologías utilizadas
 
