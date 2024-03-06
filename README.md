@@ -2,7 +2,7 @@
   Encriptador y Desencriptador
   <br/>
   <br/>
-  ![image](https://github.com/jhonatanhuaman76/challenge-encriptador-one/assets/132282558/6cbc3b6d-6ff7-4306-b85c-4979bcbf1b03)
+  <img src="https://github.com/jhonatanhuaman76/challenge-encriptador-one/assets/132282558/3ca25186-2285-4816-ad78-00f41e0924c5" />
 </h1>
 
 ¡Saludos! Aquí tienes mi respuesta al inicial desafío presentado en ONE (Oracle Next Education). La herramienta en cuestión posibilita la codificación y descodificación de mensajes mediante normativas particulares.
