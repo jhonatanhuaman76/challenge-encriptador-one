@@ -1,5 +1,5 @@
 <h1 align="center">
-  Encriptador y Desencriptador
+  Challenge Encriptador One
   <br/>
   <br/>
   <img src="https://github.com/jhonatanhuaman76/challenge-encriptador-one/assets/132282558/3ca25186-2285-4816-ad78-00f41e0924c5" />
