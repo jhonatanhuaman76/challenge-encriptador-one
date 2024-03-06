@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge Encriptador de Texto</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="contenedor">
+    <img src="IMG/Logo.png" alt="" class="logo">
+    <div class="contenedor__izq">
+      <textarea class="ingresarTexto" placeholder="Ingresa el texto aquí"></textarea>
+      <div class="advertencia">
+        <img src="IMG/exclamation.png" alt="">
+        <p>Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="botones">
+        <button class="btnEncriptar btn">Encriptar</button>
+        <button class="btnDesencriptar btn">Desencriptar</button>
+        <img src="IMG/delete.png" class="btnEliminar" alt="">
+      </div>
+    </div>
+    <div class="contenedor__der">
+      <div class="mostrarTexto">
+        <div class="mostrarTexto__defecto">
+          <img src="IMG/Muneco.png" alt="" class="mostrarTexto__muneco">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div class="mostrarTexto__encriptado ocultar">
+          <textarea class="mostrarTexto__Text" disabled></textarea>
+          <button class="btnCopiar btn">Copiar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy 2024 - Jhonatan Huaman
+    <div class="redes-sociales">
+      <a href="https://www.linkedin.com/in/jhonatan-huaman/" rel="noopener" target="_blank">
+        <img src="IMG/linkedin.svg" alt="">
+      </a>
+      <a href="https://github.com/jhonatanhuaman76" rel="noopener" target="_blank">
+        <img src="IMG/github.svg" alt="">
+      </a>
+    </div>
+  </footer>
+  <script src="JS/app.js"></script>
+
+  <!--SweetAlert2-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
